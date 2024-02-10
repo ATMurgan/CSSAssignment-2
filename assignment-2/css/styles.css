@@ -1,0 +1,177 @@
+/* Gives background image*/
+html{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/** Prepare our Custom Font **/
+@font-face{
+    /*name of font*/
+    font-family: paintFont;
+    /*link our font file*/
+    src:url("../fonts/painter-font/Painter-LxXg.ttf")
+}
+
+/** Prepare our Custom Font **/
+@font-face{
+    /*name of font*/
+    font-family: strongFont;
+    /*link our font file*/
+    src:url("../fonts/strong-runner-font/StrongRunner-vmO6L.ttf")
+}
+
+/** Prepare our Custom Font **/
+@font-face{
+    /*name of font*/
+    font-family: flowerFont;
+    /*link our font file*/
+    src:url("../fonts/flower-leaf-font/FlowerLeafDemo-1GqlB.ttf")
+}
+
+/*Box containing title and song*/
+#box-1{
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 55%;
+    border-radius: 10px;
+}
+
+/*Box containing all the lyrics*/
+#box-2{
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 55%;
+    border-radius: 10px;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    font-size: 70px;
+    color: #f8f8f8;
+    text-align: center;
+    font-family: paintFont;
+    text-shadow: 4px 3px 4px rgba(141, 14, 14, 0.8);
+}
+
+h2 {
+    font-size: 40px;
+    color: #f8f8f8;
+    text-align: center;
+    font-family: paintFont;
+    text-shadow: 4px 3px 4px rgba(141, 14, 14, 0.8);
+}
+
+h3{
+    font-size: 50px;
+    color: #f8f8f8;
+    text-align: center;
+    font-family: paintFont;
+    text-shadow: 4px 3px 4px rgba(141, 14, 14, 0.8);
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    color: #f8f8f8;
+    font-family: 'Protest Revolution', sans-serif;
+    margin: 8px;
+}
+
+.line-2{
+    font-family: 'Young Serif', serif;
+    color: blue;
+    font-size: 40px;
+}
+
+strong{
+    color: red;
+}
+
+.key{
+    font-size: 35px;
+    color: rgb(241, 196, 12);
+}
+
+.line-8{
+    text-decoration: line-through;
+}
+
+small{
+    font-size: 20px;
+}
+
+.line-12 > span{
+    font-family: strongFont;
+    font-size: 50px;
+}
+
+.chorus > p > span{
+    font-family: flowerFont;
+    color: greenyellow;
+}
+
+.chorus > p > em {
+    font-family: paintFont;
+    color: gold;
+    font-size: 35px;
+}
+
+.chorus > p > strong{
+    text-decoration: line-through red;
+    font-size: 50px;
+    color:#f8f8f8
+}
+
+.line-17{
+    font-family: strongFont;
+    color: gold;
+    font-size: 40px;
+    margin: 50px;
+}
+
+.world{
+    color: aqua;
+}
+
+.oh{
+    font-family: strongFont;
+    font-size: 35px;
+}
+
+/*Adds a text gradient */
+.end{
+    font-size: 50px;
+    background: -webkit-linear-gradient(#d8d8d8, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.line-21{
+    color: aquamarine;
+    font-family: paintFont;
+}
+
+.line-23 > em{
+    font-family: strongFont;
+    font-size: 35px;
+}
+
+.line-25{
+    font-family: strongFont;
+    color: gold;
+    font-size: 40px;
+}
+
+.line-26 > span{
+    color: rgb(92, 92, 92);
+    font-size: 35px;
+}
+
+
